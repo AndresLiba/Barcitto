@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\uriel\\Desktop\\Barcitto - Copy\\Barcitto\\Barcitto\\Barcitto.csproj": {}
+    "C:\\Users\\uriel\\Desktop\\Barcitto\\Barcitto\\Barcitto\\Barcitto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\uriel\\Desktop\\Barcitto - Copy\\Barcitto\\Barcitto\\Barcitto.csproj": {
+    "C:\\Users\\uriel\\Desktop\\Barcitto\\Barcitto\\Barcitto\\Barcitto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\uriel\\Desktop\\Barcitto - Copy\\Barcitto\\Barcitto\\Barcitto.csproj",
+        "projectUniqueName": "C:\\Users\\uriel\\Desktop\\Barcitto\\Barcitto\\Barcitto\\Barcitto.csproj",
         "projectName": "Barcitto",
-        "projectPath": "C:\\Users\\uriel\\Desktop\\Barcitto - Copy\\Barcitto\\Barcitto\\Barcitto.csproj",
+        "projectPath": "C:\\Users\\uriel\\Desktop\\Barcitto\\Barcitto\\Barcitto\\Barcitto.csproj",
         "packagesPath": "C:\\Users\\uriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\uriel\\Desktop\\Barcitto - Copy\\Barcitto\\Barcitto\\obj\\",
+        "outputPath": "C:\\Users\\uriel\\Desktop\\Barcitto\\Barcitto\\Barcitto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\uriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

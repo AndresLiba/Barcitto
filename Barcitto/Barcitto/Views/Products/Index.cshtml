@@ -7,7 +7,7 @@
 <h1>Choose a drink</h1>
  @*<a asp-action="Create"> Create</a>*@
 
-<table class="table">
+<table class="table" style="background-color:white" >
 
     <thead>
         <tr>
@@ -21,7 +21,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Price)
             </th>
-            <th></th>
+            
         </tr>
     </thead>
     <tbody>
@@ -32,23 +32,26 @@
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    <img src=@Html.DisplayFor(modelItem => item.Image) alt="Alternate Text"/>
-                    
-                    
+                    <img src=@Html.DisplayFor(modelItem => item.Image) alt="Alternate Text" />
+
+
 
 
                 </td>
                 <td>
-                   $ @Html.DisplayFor(modelItem => item.Price)
+                    $ @Html.DisplayFor(modelItem => item.Price)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
-                   
-                    
+                    <a asp-action="Edit" asp-route-id="@item.Id"class="btn btn-outline-dark">Edit</a> 
+                    <a asp-action="Details" asp-route-id="@item.Id"class="btn btn-outline-dark">Details</a> 
+                    <a asp-action="Delete" asp-route-id="@item.Id"class="btn btn-outline-dark">Delete</a> 
+
+
                 </td>
             </tr>
+            
         }
     </tbody>
 </table>
+
+    

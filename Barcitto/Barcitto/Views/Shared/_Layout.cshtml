@@ -8,8 +8,15 @@
     <title>@ViewData["Title"] - Barcitto</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    
+    <style>
+        body {
+            background-color:whitesmoke;
+            margin: 0;
+        }
 
-   
+
+    </style>
 
 
 </head>
@@ -20,7 +27,7 @@
 
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Products" asp-action="Index"><img src="~/imagenes/BARCITOLOGO_mini.png" /></a>
+                <a class="navbar-brand" asp-area="" asp-controller="Products" asp-action="Index"><img src="~/imagenes/BARCITOLOGO2_mini.png" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -47,7 +54,7 @@
                             </li>
                             <li><a class="nav-link text-light" asp-area="" asp-controller="ShoppingCart" asp-action="Cart">Cart</a></li>
                             <form method="post" asp-controller="Account" asp-action="Logout">
-                                <button type="submit" class="nav-link ">
+                                <button type="submit" class="btn btn-secondary" >
                                     Logout @*@User.Identity.Name*@
                                 </button>
                             </form>
@@ -64,17 +71,21 @@
                         </ul>
 
 
-                        
+
                     </div>
-            </div>
-        </nav>
-    </header>
+                </div>
+            </nav>
+        </header>
+
+
         <div class="container">
             <main role="main" class="pb-3">
                 @RenderBody()
             </main>
         </div>
-
+        <br />
+        <br />
+        <br />
         <footer class="border-top footer text-muted">
             <div class="container">
                 &copy; 2020 - Barcitto - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>

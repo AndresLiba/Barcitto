@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mB3bk+fCk3FaphAYKqgNsFYzASWlegn2JAemOmJgzA7X5ADF68qrF9Bn9kZkdqx9iyDGZ20tKaiw/eiMJGhMDg==",
+  "dgSpecHash": "3yilUXPsxqgQfG5k38SPwtktSf+PIHNDDsYCn0UJlHb0+UpAKRBgw3DZXlxOwt0HY6crm8ovuJbWDjtRSXHzmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\uriel\\Desktop\\Barcitto - Copy\\Barcitto\\Barcitto\\Barcitto.csproj",
+  "projectFilePath": "C:\\Users\\uriel\\Desktop\\Barcitto\\Barcitto\\Barcitto\\Barcitto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\uriel\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.6\\microsoft.aspnetcore.cryptography.internal.3.1.6.nupkg.sha512",
     "C:\\Users\\uriel\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.6\\microsoft.aspnetcore.cryptography.keyderivation.3.1.6.nupkg.sha512",
