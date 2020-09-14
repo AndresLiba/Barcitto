@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2020-09-14T00:14:48.8831931Z"
+    }
+  },
+  "parameters": {
+    "Barcitto.resourceName": {
+      "Type": null,
+      "Value": "Barcitto"
+    },
+    "subscriptionId": {
+      "Type": "subscription",
+      "Value": "169cbd88-7796-420b-92e0-dea5493c4ca1"
+    },
+    "Barcitto.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "Barcitto20200913180924ResourceGroup"
+    },
+    "Barcitto.resourceGroupLocation": {
+      "Type": null,
+      "Value": "southcentralus"
+    },
+    "Barcitto.subscriptionId": {
+      "Type": "subscription",
+      "Value": "169cbd88-7796-420b-92e0-dea5493c4ca1"
+    },
+    "mssql1.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "Barcitto20200913180924ResourceGroup"
+    },
+    "mssql1.subscriptionId": {
+      "Type": "subscription",
+      "Value": "169cbd88-7796-420b-92e0-dea5493c4ca1"
+    }
+  }
+}

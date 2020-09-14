@@ -2,11 +2,7 @@
   "dependencies": {
     "mssql1": {
       "type": "mssql",
-      "connectionId": "BarcittoContext"
-    },
-    "mssql2": {
-      "type": "mssql",
-      "connectionId": "BarcittoUserContextConnection"
+      "connectionId": "BarcittoDB"
     }
   }
 }
